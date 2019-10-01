@@ -12,7 +12,7 @@ RUN set -ex \
   ; wget -q -O racket.sh ${rkt_url} \
   ; sh ./racket.sh --in-place --dest ${RACKET_HOME} \
   ; rm ./racket.sh \
-  ; raco pgk install rash \
+  ; raco pkg install rash \
 #  ; raco pkg install --auto iracket \
 #  ; racket -l iracket/install \
   ; rm -rf ${HOME}/.racket/download-cache
