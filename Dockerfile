@@ -2,7 +2,7 @@ FROM nnurphy/deb
 
 ENV RACKET_HOME=/opt/racket RACKET_VERSION=7.4
 ENV PATH=${RACKET_HOME}/bin:$PATH
-ARG rkt_url=https://mirror.racket-lang.org/installers/${RACKET_VERSION}/racket-minimal-${RACKET_VERSION}-x86_64-linux-cs.sh
+ARG rkt_url=https://mirror.racket-lang.org/installers/${RACKET_VERSION}/racket-minimal-${RACKET_VERSION}-x86_64-linux.sh
 
 RUN set -ex \
 #  ; apt-get install -y --no-install-recommends \
